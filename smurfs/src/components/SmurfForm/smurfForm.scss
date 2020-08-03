@@ -1,0 +1,31 @@
+.new-smurf-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input#name,
+input#age,
+input#height {
+  background: #ffffff85;
+  border: none;
+  border-bottom: 2px solid #255361;
+  /* display: flex; */
+  padding: 12px 20px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  background: #fff;
+  border: none;
+  color: #00a6d8;
+  padding: 12px 20px;
+  border-radius: 10px 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 20px auto;
+}
